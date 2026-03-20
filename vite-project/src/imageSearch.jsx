@@ -22,9 +22,9 @@ const ImageSearch = ({ onSearch, isLoading }) => {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-12">
+    <div className="w-full  mx-auto px-4 py-12">
       <div className="text-center mb-8">
-        <h1 className="text-5xl font-bold text-gray-900 mb-4">shutterflock</h1>
+        <h1 className="text-5xl font-bold text-gray-900 mb-4">Shutter Flock</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Over 6 million+ high quality stock images, videos and music shared by our talented community.
         </p>
