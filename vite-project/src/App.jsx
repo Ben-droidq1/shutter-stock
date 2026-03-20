@@ -76,7 +76,7 @@ export default function App() {
 
         {!isLoading && !error && images.length > 0 && (
           <div className="grow">
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 place-items-center'>
               {images.map(image =>
                 <Image key={image.id} image={image} />
               )}
